@@ -11,7 +11,6 @@ function App({ posts }) {
       setStatus(fetchRes);
     };
     fetchData().catch(console.error);
-    console.log(status);
   }, [posts, setStatus]);
 
   return (
